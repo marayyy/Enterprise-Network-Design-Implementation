@@ -1,0 +1,28 @@
+WAN
+
+FW Interface IP << 192.0.0.2/30
+WAN Gateway 	<< 192.0.0.1/30
+
+LAN
+
+FW Interface 	<< 192.168.0.2/30
+L3 Switch 	<< 192.168.0.3/30
+
+
+L3 Interface 	<< 192.168.0.6/30
+S1 Interface	<< 192.168.0.7/30
+
+S1 Gateway IP	<< 192.168.1.131/26
+VLAN 15 Subnet	<< 192.168.1.130/26
+
+L3 Interface 	<< 192.168.0.9/30
+S2 Interface	<< 192.168.0.10/30
+
+S2 Gateway IP 	<< 192.168.1.1/26
+VLAN 17 Subnet	<< 192.168.1.0/26
+
+L3 Interface 	<< 192.168.0.12/30
+S3 Interface	<< 192.168.0.13/30
+
+S3 Gateway IP	<< 192.168.1.65/26
+VLAN 18 Subnet	<< 192.168.1.64/26
